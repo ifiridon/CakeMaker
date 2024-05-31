@@ -1,0 +1,3 @@
+C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug/CMakeFiles/CakeMaker.dir
+C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug/CMakeFiles/rebuild_cache.dir

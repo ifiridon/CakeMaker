@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CakeMaker"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CakeMaker">
+				<Option output="C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug/CakeMaker.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 CakeMaker"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CakeMaker/fast">
+				<Option output="C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug/CakeMaker.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 CakeMaker/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Radu/Desktop/CakeMaker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Radu\Desktop\CakeMaker\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/Cake/Cake.cpp">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/Cake/Cake.h">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/CakeMaker/CakeMaker.cpp">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/CakeMaker/CakeMaker.h">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/CarouselOfCakes/CarouselOfCakes.cpp">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/CarouselOfCakes/CarouselOfCakes.h">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/CommandPanel/CommandPanel.cpp">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/CommandPanel/CommandPanel.h">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/CommandTaker/CommandTaker.cpp">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/CommandTaker/CommandTaker.h">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/Menu/Menu.cpp">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/Menu/Menu.h">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/RecipeCake/RecipeCake.cpp">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/RecipeCake/RecipeCake.h">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/main.cpp">
+			<Option target="CakeMaker"/>
+		</Unit>
+		<Unit filename="C:/Users/Radu/Desktop/CakeMaker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
